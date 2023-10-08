@@ -1,0 +1,84 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.container{
+    background-color: rgb(30, 98, 161);
+    min-width: 100%;
+    min-height: 100vh;
+    position: fixed;
+}
+.card{
+    width: 450px;
+    background-color: white;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 18px -2px rgb(0 0 0 / 50%);
+    padding: 20px 0px;
+}
+img{
+    display: block;
+    margin: auto;
+}
+
+h3{
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    width: 220px;
+    margin: auto;
+}
+.form-input{
+    margin: 10px 0px;
+}
+.form-input input{
+    background: transparent;
+    color: #495057;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    width: 300px;
+    height: 50ppx;
+    display: block;
+    margin: auto;
+    padding-left: 8px;
+}
+.kode{
+    background-color: red;
+    display: inline-block;
+    padding: 4px;
+    font-size: 24px;
+    font-weight: 600;
+    margin-left: 70px;
+}
+
+.form-kode{
+    display: inline-block;
+}
+
+.form-kode input{
+    width: 200px !important;
+    margin-left: 10px;
+}
+button{
+    background-color: rgb(53, 53, 194);
+    border: none;
+    margin: auto;
+    width: 70%;
+    height: 35px;
+    color: white;
+    display: block;
+    border-radius: 8px;
+
+}
+
+button a {
+    color: whitesmoke;
+}
+
+button:hover {
+    background-color: blue;
+    color: white;
+}
